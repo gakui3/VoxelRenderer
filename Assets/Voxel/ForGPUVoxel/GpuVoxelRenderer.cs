@@ -15,7 +15,7 @@ public class GpuVoxelRenderer : MonoBehaviour
     ComputeBuffer voxelBuffer;
     ComputeBuffer argBuffer;
     const int voxelSizeOneLine = 20;
-    const int voxelCountOneLine = 32; //16 or 32 or 64 or 128
+    const int voxelCountOneLine = 64; //16 or 32 or 64 or 128
     float voxelScale;
     MeshFilter meshFilter;
     SkinnedMeshRenderer skinnedMeshRenderer;

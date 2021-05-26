@@ -12,47 +12,47 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64480
+64540
 Successfully changed project path to: /Users/gkirii/Unity_Projects/VoxelRenderer
 /Users/gkirii/Unity_Projects/VoxelRenderer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 100.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gkirii/Unity_Projects/VoxelRenderer/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-05-20 20:09:23.506 Unity[9905:3683686] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-05-20 20:09:23.506 Unity[9905:3683686] Metal devices available: 1
-2021-05-20 20:09:23.506 Unity[9905:3683686] 0: Intel(R) Iris(TM) Plus Graphics (low power)
-2021-05-20 20:09:23.507 Unity[9905:3683686] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+2021-05-20 20:14:14.186 Unity[10067:3691562] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-05-20 20:14:14.186 Unity[10067:3691562] Metal devices available: 1
+2021-05-20 20:14:14.186 Unity[10067:3691562] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-05-20 20:14:14.186 Unity[10067:3691562] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56905
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56067
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000751 seconds.
+Registered in 0.000730 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 102.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.543 seconds
+- Completed reload, in  2.527 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001925 seconds.
+Registered in 0.001624 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 105.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.393 seconds
+- Completed reload, in  1.389 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -60,92 +60,151 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 237.5 MB.
-System memory in use after: 234.9 MB.
+System memory in use before: 237.7 MB.
+System memory in use after: 235.1 MB.
 
 Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4408.
-Total: 4.185279 ms (FindLiveObjects: 0.353234 ms CreateObjectMapping: 0.201285 ms MarkObjects: 2.246463 ms  DeleteObjects: 1.382851 ms)
+Total: 3.648786 ms (FindLiveObjects: 0.311364 ms CreateObjectMapping: 0.179773 ms MarkObjects: 1.891547 ms  DeleteObjects: 1.246317 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sample.unity
-  artifactKey: Guid(d180516cee14c465a83d85a0d50b6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sample.unity using Guid(d180516cee14c465a83d85a0d50b6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842978ce5e9bd99251f8620513554c80') in 0.020538 seconds 
+  path: Assets/Voxel/VoxelRenderer.cs
+  artifactKey: Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/VoxelRenderer.cs using Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e6253f54d01b60a839323a0d080bd') in 0.363859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Voxel/VoxelRenderer.shader
+  artifactKey: Guid(733d4e5a741f048109d887584445dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/VoxelRenderer.shader using Guid(733d4e5a741f048109d887584445dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50be9ff85de05b979ebdad81f0f1ef6') in 0.887234 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001862 seconds.
+Registered in 0.001773 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  1.222 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 234.1 MB.
-System memory in use after: 231.5 MB.
+System memory in use before: 242.9 MB.
+System memory in use after: 240.3 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4411.
-Total: 4.088270 ms (FindLiveObjects: 0.321161 ms CreateObjectMapping: 0.155443 ms MarkObjects: 2.124219 ms  DeleteObjects: 1.485915 ms)
+Total: 3.941047 ms (FindLiveObjects: 0.337863 ms CreateObjectMapping: 0.164023 ms MarkObjects: 2.105376 ms  DeleteObjects: 1.332623 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.151600 seconds.
-  path: Assets/Voxel/GpuVoxelRenderer.cs
-  artifactKey: Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Voxel/GpuVoxelRenderer.cs using Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f1962ff96fa128b1583a8babe9fad8') in 0.422113 seconds 
+  Time since last request: 574.460661 seconds.
+  path: Assets/Voxel/Dancing.controller
+  artifactKey: Guid(5ea819992437248e9974d1efb71ddbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/Dancing.controller using Guid(5ea819992437248e9974d1efb71ddbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22f97977c5f8449c68e65422378340f') in 0.385849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Voxel/VoxelUpdater.compute
-  artifactKey: Guid(de08b539035624c51927224311914805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Voxel/VoxelUpdater.compute using Guid(de08b539035624c51927224311914805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8606b3afe5f1b133b08386aae34a5d') in 1.175201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.435278 seconds.
-  path: Assets/Voxel/VoxelUpdater.compute
-  artifactKey: Guid(de08b539035624c51927224311914805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Voxel/VoxelUpdater.compute using Guid(de08b539035624c51927224311914805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57a01255317fffb5dc2ee1c33f9be73') in 0.003222 seconds 
+  Time since last request: 11.248234 seconds.
+  path: Assets/Voxel/Models/dance.controller
+  artifactKey: Guid(ab9057834b74b42eb8ce0b5f7b3e320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/Models/dance.controller using Guid(ab9057834b74b42eb8ce0b5f7b3e320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd58addce7495dc2055c9bfd7a8c6ee2') in 0.012473 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001586 seconds.
+Registered in 0.001994 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
+- Completed reload, in  1.312 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.1 MB.
-System memory in use after: 240.5 MB.
+System memory in use before: 247.5 MB.
+System memory in use after: 244.8 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4414.
-Total: 4.084255 ms (FindLiveObjects: 0.326152 ms CreateObjectMapping: 0.221985 ms MarkObjects: 2.200332 ms  DeleteObjects: 1.334009 ms)
+Total: 6.491927 ms (FindLiveObjects: 0.642979 ms CreateObjectMapping: 0.281484 ms MarkObjects: 2.730731 ms  DeleteObjects: 2.833614 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 114.217838 seconds.
-  path: Assets/Voxel/CpuVoxelRenderer.cs
-  artifactKey: Guid(6800df1b3326b46b8936a4c8e6ba911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Voxel/CpuVoxelRenderer.cs using Guid(6800df1b3326b46b8936a4c8e6ba911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3300a825607523e4be5856b786e288') in 0.007778 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008005 seconds.
+Registered in 0.001616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.220 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 247.8 MB.
+System memory in use after: 245.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4417.
+Total: 3.630744 ms (FindLiveObjects: 0.285017 ms CreateObjectMapping: 0.179412 ms MarkObjects: 1.862316 ms  DeleteObjects: 1.302950 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.0 MB.
+System memory in use after: 245.4 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4420.
+Total: 3.928182 ms (FindLiveObjects: 0.330479 ms CreateObjectMapping: 0.165720 ms MarkObjects: 2.040578 ms  DeleteObjects: 1.390335 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.3 MB.
+System memory in use after: 245.7 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 4.328811 ms (FindLiveObjects: 0.369764 ms CreateObjectMapping: 0.175717 ms MarkObjects: 2.264710 ms  DeleteObjects: 1.517019 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

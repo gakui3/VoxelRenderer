@@ -13,8 +13,7 @@ public class CpuVoxelRenderer : MonoBehaviour
     }
 
     const int voxelSizeOneLine = 10;
-
-    [SerializeField, Range(0.1f, 1f)] float voxelScale = 0.25f;
+    float voxelScale = 0.25f;
     int voxelCountOneLine;
 
 
