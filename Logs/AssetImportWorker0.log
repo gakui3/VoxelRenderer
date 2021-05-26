@@ -284,3 +284,31 @@ Received Import Request.
   path: Assets/Voxel/ForGPUVoxel/VoxelRenderer.cs
   artifactKey: Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Voxel/ForGPUVoxel/VoxelRenderer.cs using Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e6253f54d01b60a839323a0d080bd') in 0.001646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.3 MB.
+System memory in use after: 274.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4546.
+Total: 2.507509 ms (FindLiveObjects: 0.331311 ms CreateObjectMapping: 0.168720 ms MarkObjects: 1.979574 ms  DeleteObjects: 0.026553 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 843.226862 seconds.
+  path: Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs
+  artifactKey: Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs using Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b245288210feac1d83917e2f1b6cdf') in 0.007896 seconds 
