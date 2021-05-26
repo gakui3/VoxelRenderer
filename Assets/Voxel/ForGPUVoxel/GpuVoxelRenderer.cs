@@ -41,7 +41,7 @@ public class GpuVoxelRenderer : MonoBehaviour
 
     public struct DebugData
     {
-        public float3 index;
+        public Vector3 index;
     }
 
     void Start()

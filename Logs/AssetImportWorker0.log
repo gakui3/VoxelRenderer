@@ -244,3 +244,43 @@ Received Import Request.
   path: Assets/Voxel/ForCPUVoxel/CPUSample.unity
   artifactKey: Guid(8edb1fcdaa5e844e2a52c653bc49b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Voxel/ForCPUVoxel/CPUSample.unity using Guid(8edb1fcdaa5e844e2a52c653bc49b80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44e50dd214f13d4fc1a15a43363e910') in 0.027775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 322.544159 seconds.
+  path: Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs
+  artifactKey: Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs using Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf363914112ccdc0dc484863851649b') in 0.005196 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.9 MB.
+System memory in use after: 274.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4543.
+Total: 4.836080 ms (FindLiveObjects: 0.516017 ms CreateObjectMapping: 0.308026 ms MarkObjects: 3.949339 ms  DeleteObjects: 0.060530 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.283711 seconds.
+  path: Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs
+  artifactKey: Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/ForGPUVoxel/GpuVoxelRenderer.cs using Guid(2cb1d180a7daa4be7bf09b6af39a2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d75fe06d0497e4364a0669e5371a9e') in 0.011975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 282.149690 seconds.
+  path: Assets/Voxel/ForGPUVoxel/VoxelRenderer.cs
+  artifactKey: Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel/ForGPUVoxel/VoxelRenderer.cs using Guid(8e71ad88d016541698aeda17a4051ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e6253f54d01b60a839323a0d080bd') in 0.001646 seconds 
